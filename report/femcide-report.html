@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-NG">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Confidential Femicide Reporting in Nigeria - PreFem</title>
+  <meta name="description" content="Confidentially report femicide cases in Nigeria. Your report can help bring justice and prevent future violence against women." />
+  <link rel="canonical" href="https://prefem.github.io/report/femicide-report.html" />
+
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+  
+  <meta name="robots" content="index, follow" />
+  
+  <meta property="og:title" content="Confidential Femicide Reporting in Nigeria - PreFem" />
+  <meta property="og:description" content="Confidentially report femicide cases in Nigeria. Your report can help bring justice and prevent future violence against women." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://prefem.github.io/report/femicide-report.html" />
+  <meta property="og:image" content="https://prefem.github.io/images/og-image.jpg" />
+  <meta property="og:site_name" content="PreFem" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Report Femicide - PreFem | Confidential Femicide Reporting in Nigeria" />
+  <meta name="twitter:description" content="Confidentially report femicide cases in Nigeria. Your report can help bring justice and prevent future violence against women." />
+  <meta name="twitter:image" content="https://prefem.github.io/images/twitter-image.jpg" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Report Femicide - PreFem",
+    "description": "Confidential femicide reporting form for Nigeria",
+    "url": "https://prefem.github.io/report/femicide-report.html",
+    "potentialAction": {
+      "@type": "ReportAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://prefem.github.io/report/femicide-report.html",
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/MobileWebPlatform"
+        ]
+      },
+      "result": {
+        "@type": "Report",
+        "reportNumber": "PF-{number}"
+      }
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "PreFem",
+      "logo": "https://prefem.github.io/images/logo.png"
+    }
+  }
+  </script>
+  <link rel="manifest" href="/manifest.json">
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self';
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    font-src 'self' https://fonts.gstatic.com;
+    connect-src 'self' https://api.cloudinary.com https://script.google.com;
+    img-src 'self' data: https:;
+    object-src 'none';
+    frame-ancestors 'none';
+    base-uri 'self';
+  ">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="/styles/global.css">
+</head>
+<body>
+<div class="container">
+<div id="layout-container"></div>
+<main>
+<div class="back-to-report-container">
+<a href="/report.html" class="back-to-report-button">
+<img src="/images/arrow-left.svg" alt="Back to Report" />
+
+<span data-translate="back_to_report">Go Back</span>
+
+</a>
+</div>
+<section class="introduction">
+<h1>Report Femicide</h1>
+<p data-translate="firstRFP">
+Your report is safe, confidential, and can help stop femicide. When filling out the form, provide as much information as you can, but it’s okay to leave fields blank if you don’t have accurate details. However, please make sure to provide a description of the incident, as this is required to help us understand what happened and take action.
+</p>
+</section>
+
+<section class="responsive-form">
+<div class="form-container">
+<form id="contactForm" novalidate>
+<input type="hidden" id="form-id" name="form-id">
+
+<div class="form-group-container">
+
+<div class="form-group">
+<label for="incidentDate">Date of Incident:</label>
+<input type="date" id="incidentDate" name="incidentDate" required>
+<span class="error-message" id="dateError"></span>
+</div>
+
+<div class="form-group">
+<label for="location">Where did it happen?</label>
+<select id="location" name="location" required>
+<option value="" disabled selected>Select state</option>
+<option value="Abia">Abia</option>
+<option value="Adamawa">Adamawa</option>
+<option value="Akwa Ibom">Akwa Ibom</option>
+<option value="Anambra">Anambra</option>
+<option value="Bauchi">Bauchi</option>
+<option value="Bayelsa">Bayelsa</option>
+<option value="Benue">Benue</option>
+<option value="Borno">Borno</option>
+<option value="Cross River">Cross River</option>
+<option value="Delta">Delta</option>
+<option value="Ebonyi">Ebonyi</option>
+<option value="Edo">Edo</option>
+<option value="Ekiti">Ekiti</option>
+<option value="Enugu">Enugu</option>
+
+<option value="FCT">FCT</option>
+<option value="Gombe">Gombe</option>
+<option value="Imo">Imo</option>
+
+<option value="Jigawa">Jigawa</option>
+<option value="Kaduna">Kaduna</option>
+<option value="Kano">Kano</option>
+<option value="Katsina">Katsina</option>
+<option value="Kebbi">Kebbi</option>
+<option value="Kogi">Kogi</option>
+<option value="Kwara">Kwara</option>
+<option value="Lagos">Lagos</option>
+<option value="Nasarawa">Nasarawa</option>
+<option value="Niger">Niger</option>
+<option value="Ogun">Ogun</option>
+<option value="Ondo">Ondo</option>
+<option value="Osun">Osun</option>
+<option value="Oyo">Oyo</option>
+<option value="Plateau">Plateau</option>
+<option value="Rivers">Rivers</option>
+<option value="Sokoto">Sokoto</option>
+<option value="Taraba">Taraba</option>
+<option value="Yobe">Yobe</option>
+<option value="Zamfara">Zamfara</option>
+</select>
+<span class="error-message" id="locationError"></span>
+</div>
+</div>
+
+<div class="form-group-container">
+
+<div class="form-group">
+<label for="victimName">Victim Name:</label>
+<input type="text" id="victimName" name="victimName" placeholder="e.g. Amina Yusuf" required>
+<span class="error-message" id="victimNameError"></span>
+</div>
+
+
+<div class="form-group">
+<label for="killer">Who killed her?</label>
+<input type="text" id="killer" name="killer" placeholder="e.g. Unknown assailant" required>
+<span class="error-message" id="killerError"></span>
+</div>
+</div>
+            
+<div class="form-group">
+<label for="file-input">Upload Evidence (Optional):</label>
+<div class="upload-box" id="drop-area">
+<div class="upload-content">
+<img src="/images/cloud-upload.svg" alt="Upload Icon">
+<p>Drag & Drop files here or</p>
+<button class="browse-btn" id="browse-btn" type="button">Browse Files</button>
+<input type="file" id="file-input" multiple hidden>
+<p>Supported file types: <strong>JPG, PNG, DOC, DOCX, PDF, MP4</strong></p>
+</div>
+</div>
+<div class="file-list" id="file-list"></div>
+</div>
+            
+<div class="form-group">
+<label for="message">Describe Incident:</label>
+<textarea id="message" name="message" placeholder="Please tell us everything you know about the incident. . ." required></textarea>
+<span class="error-message" id="messageError"></span>
+</div>
+
+<div class="form-group-container">
+
+<div class="form-group">
+<label for="name">Your Name:</label>
+<input type="text" id="name" name="name" placeholder="e.g. Ngozi Bisi Zainab" required>
+<span class="error-message" id="nameError"></span>
+</div>
+
+<div class="form-group">
+<label for="email">Email Address:</label>
+<input type="email" id="email" name="email" placeholder="e.g. ngozi@example.com" required>
+<span class="error-message" id="emailError"></span>
+</div>
+</div>
+
+<button class="submit-button" type="submit">Submit Report</button>
+</form>
+</div>
+</section>
+</main>
+</div>
+
+<div class="loading-overlay" id="loading-overlay">
+<div class="spinner"></div>
+</div>
+
+  <div class="response-overlay" id="successOverlay">
+<div class="response-popup success-popup">
+<img src="/images/mailbox.svg" alt="Success" class="response-icon">
+<h2>Thank you!</h2>
+<p>Our team will review your femicide report and be in touch with you soon.</p>
+<button class="close-response" id="closeSuccess">Close</button>
+</div>
+  </div>
+
+  <div class="response-overlay" id="errorOverlay">
+<div class="response-popup error-popup">
+<img src="/images/alert.svg" alt="Error" class="response-icon">
+<h2>Something went wrong</h2>
+<p>Unfortunately, we were unable to receive your report. Please try again later. Alternatively, you can <a href="https://forms.gle/KYWH4oGSWicxwHmPA" target="_blank">fill our Google form</a> or <a href="mailto:prefemreport@gmail.com">send us an email</a>.</p>
+<button class="close-response" id="closeError">Close</button>
+</div>
+</div>
+
+<script type="module" src="/script/femicide-report.js"></script>
+</body>
+  </html>
+  
