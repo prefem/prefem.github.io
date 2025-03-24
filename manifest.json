@@ -1,0 +1,48 @@
+{
+"name": "PreFem - End Femicide in Nigeria",
+"short_name": "PreFem",
+"description": "Report femicide and gender-based violence anonymously. Get help. Join the movement. Save lives.",
+"start_url": "/index.html",
+"display": "standalone",
+"background_color": "#ffffff",
+"theme_color": "#6a35aa", 
+"orientation": "portrait",
+"lang": "en-NG",
+"scope": "/",
+"icons": [
+{
+"src": "/images/favicon-192x192.png",
+"sizes": "192x192",
+"type": "image/png"
+},
+{
+"src": "/images/favicon-512x512.png",
+"sizes": "512x512",
+"type": "image/png"
+},
+{
+"src": "/images/apple-touch-icon.png",
+"sizes": "180x180",
+"type": "image/png",
+"purpose": "maskable"
+}
+],
+"screenshots": [
+{
+"src": "/images/prefem-home-portrait.png",
+"type": "image/png",
+"sizes": "1080x1920",
+"label": "Homepage - Portrait View",
+"form_factor": "narrow"
+},
+{
+"src": "/images/prefem-report-portrait.png",
+"type": "image/png",
+"sizes": "1080x1920",
+"label": "Report a Case - Portrait View",
+"form_factor": "narrow"
+}
+],
+"categories": ["health", "emergency", "social", "non-profit", "advocacy"],
+"dir": "ltr"
+}
